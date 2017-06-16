@@ -1,97 +1,110 @@
 <html>
-<HEAD><TITLE>Skool Filter - Toegang geweigerd</TITLE>
-<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
-<STYLE type="text/css">BODY {
-	BACKGROUND-COLOR: #ffcd00
-}
-TD {
-	FONT: 83%/1.4 verdanda, sans-serif; COLOR: #663300
-}
-TH {
-	FONT: 83%/1.4 verdanda, sans-serif; COLOR: #663300
-}
-.fieldsetlegend {
-	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; spacing-left: 3px
-}
-.fieldset {
-	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 600px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
-}
-.lc {
-	BACKGROUND-IMAGE: url(legend_inside.png); PADDING-LEFT: 17px; PADDING-RIGHT: 17px; BACKGROUND-REPEAT: repeat-x; COLOR: #ffffff; FONT-SIZE: 10pt
-}
-.tl {
-	WIDTH: 25px
-}
-.tr {
-	WIDTH: 25px
-}
-.bl {
-	WIDTH: 25px
-}
-.br {
-	WIDTH: 25px
-}
-.mr {
-	WIDTH: 25px
-}
-.ml {
-	WIDTH: 25px
-}
-.tc {
-	BACKGROUND-IMAGE: url(box_02.png); BACKGROUND-REPEAT: repeat-x
-}
-.ml {
-	BACKGROUND-IMAGE: url(box_04.png); BACKGROUND-REPEAT: repeat-y
-}
-.mc {
-	BACKGROUND-IMAGE: url(box_05.png)
-}
-.mr {
-	BACKGROUND-IMAGE: url(box_06.png); BACKGROUND-REPEAT: repeat-y
-}
-.bc {
-	BACKGROUND-IMAGE: url(box_08.png); BACKGROUND-REPEAT: repeat-x
-}
-</STYLE>
-</HEAD>
-<BODY>
-<CENTER>
-<DIV style="WIDTH: 600px" align=left>
-<TABLE class=fieldsetlegend cellSpacing=0 cellPadding=0>
-<TBODY>
-<TR>
-<TD width=3></TD>
-<TD class=ll><IMG src="legend_left.png" width=7 height=34></TD>
-<TD class=lc><STRONG>Toegang geweigerd</STRONG></TD>
-<TD class=lr><IMG src="legend_right.png" width=7 height=34></TD></TR></TBODY></TABLE>
-<TABLE class=fieldset cellSpacing=0 cellPadding=0>
-<TBODY>
-<TR>
-<TD class=tl><IMG src="box_01.png" width=25 height=25></TD>
-<TD class=tc>&nbsp;</TD>
-<TD class=tr><IMG src="box_03.png" width=25 height=25></TD></TR>
-<TR>
-<TD class=ml>
-<TD class=mc>
-<TABLE>
-<TBODY>
-<TR>
-<TD vAlign=top>
-<P><STRONG>Gebruiker:</STRONG>&nbsp;<span id="user">installuser</span> <BR><STRONG>Beleid:</STRONG>&nbsp;<span id="beleid">Mild Beleid</span> </P>
-<P><STRONG>Categorieën:</STRONG> <BR><span id="category">N/A</span> </P></TD>
-<TD align=middle><a onclick='document.getElementById("user").innerHTML = prompt("Gebruiker", "");
-document.getElementById("beleid").innerHTML = prompt("Beleid", "");
-document.getElementById("category").innerHTML = prompt("Categorieën (\ n voor enter)", "").replace("\n","<div>");
-document.getElementById("url").innerHTML = prompt("Geblokkeerde URL", "");
-document.getElementById("reason").innerHTML = prompt("Reden", "");'><IMG alt="toegang geweigerd agent" src="access_denied.png" width=180 height=158></a> </TD></TR>
-<TR>
-<TD colSpan=2>
-<P>Toegang tot de pagina: <BR><SPAN style="FONT-SIZE: 9px"><span id="url">https://youtube.com/watch?v=y6120QOlsfU</span></SPAN> <BR>...werd geweigerd om de volgende reden: <BR><span id="reason">Geblokkeerde website: youtube.com/watch</span> </P>
-<P>U ziet deze melding omdat de pagina die u probeerde te benaderen, materiaal lijkt te bevatten dat ongeschikt is om te bekijken, of gemarkeerd is als ongeschikt om te bekijken. </P>
-<P>Indien U hierover vragen heeft kunt U contact opnemen met de ICT-Coördinator. </P></TD></TR></TBODY></TABLE></TD>
-<TD class=mr></TD>
-<TR>
-<TD class=bl><IMG src="box_07.png" width=25 height=25></TD>
-<TD class=bc>&nbsp;</TD>
-<TD class=br><IMG src="box_09.png" width=25 height=25></TD></TR></TBODY></TABLE></DIV></CENTER></BODY>
+<head>
+  <title>MtHub</title>
+  <meta name="description" content="Hubba hubba">
+  <meta name="author" content="MtH">
+  <meta game="20xx" content="perfect pivoting is only movement option">
+  <meta knight="brawl tiers" content="who needs tiers when you have meta knight">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="top">
+    <div class="jigle">
+      <a href="http://niceme.me/"><img src="img/jiglepufe.png" alt="Jiglepufe" align="middle"></a>
+    </div>
+    <div class="social">
+      <a href="http://www.smashladder.com/player/50548/mth/"><img src="img/anther.png" alt="Anther's Ladder" width="20" height="20" hspace="5"></a>
+      <a href="http://myanimelist.net/animelist/pikachu000000000"><img src="img/mal.png" alt="MyAnimeList" width="20" height="20"></a>
+      <a href="http://soundcloud.com/pikachu000000000"><img src="img/soundcloud.png" alt="SoundCloud" width="20" height="20" hspace="5"></a>
+      <a href="http://youtube.com/user/pikachu000000000"><img src="img/youtube.png" alt="YouTube" width="20" height="20"></a>
+      <a href="http://twitter.com/pikachu000000000"><img src="img/twitter.png" alt="Twitter" width="20" height="20" hspace="5"></a>
+      <a href="http://soundcloud.com/anusfarts"><img src="img/soundcloud.png" alt="SoundClown" width="20" height="20"></a>
+    </div>
+  </div>
+  <div id="highlights">
+    <div class="royco">
+      <img src="img/royco.png"width="550" height="550" alt="Royco Wakka Soup">
+    </div>
+    <div class="noice"></div>
+  </div>
+  <div id="sel">
+    <span class="lijn"></span>
+    <img class="notabtn" src="img/btnhome.png" alt="HOME">
+    <span class="lijn"></span>
+    <a href="#mains"><img class="navbtn" src="img/btnmains.png" alt="MAINS"></a>
+    <span class="lijn"></span>
+    <a href="noice.html"><img class="navbtn" src="img/btnnoice.png" alt="NOICE"></a>
+    <span class="lijn"></span>
+    <a href="http://morl.spreadshirt.nl/"><img class="navbtn" src="img/btnshirts.png" alt="SHIRTS"></a>
+    <span class="lijn"></span>
+  </div>
+  <a href="http://25.media.tumblr.com/fccd71ddc755aaf15380548f560e6edf/tumblr_mk2ulcEDVE1rcj8eco1_500.gif" alt="CHITANDA APPROACHING" width="900"><span class="challenge"></span></a>
+  <br>
+  <a href="mailto:sora-sakurai@nintendo.co.jp" alt="Nana & Popo; Missing Since 2014" width="412"><span class="ics"></span></a>
+  <br><br>
+  <!--Mains section; format characters like this:
+  <a class="char" href="#" alt="---">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/---.png" width="225" height="225">
+  </a>
+  replace --- with the character's name
+  # can also link to a webpage
+  -->
+  <div id="mains">
+  <img src="img/mainstext.png" alt="Mains"><br><br>
+  <a class="char" href="https://www.youtube.com/playlist?list=PLqwDpRQTJXoUMQOt417I04yTlRi7f6ipl" alt="Jigglypuff">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/puff.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Zelda">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/zelda.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Pikachu">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/pika.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Lucas">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/lucas.png" width="225" height="225">
+  </a>
+  <br><br>
+  <img src="img/secontext.png" alt="Secondaries" id="secondaries"><br><br>
+  <a class="char" href="#" alt="Kirby">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/kirby.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Marth">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/marth.png" width="225" height="225">
+  </a>
+  <a class="char" href="https://youtu.be/x4oyop7eqyo" alt="Sheik">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/sheik.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Captain Falcon">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/falcon.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Link">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/link.png" width="225" height="225">
+  </a>
+  <a class="char" href="https://youtu.be/Cs6tfOLJe5Y" alt="Mr. Game & Watch">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/gamewatch.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Roy">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/roy.png" width="225" height="225">
+  </a>
+  <a class="char" href="#" alt="Pichu">
+    <img src="img/Chars/hover.png" width="225" height="225" class="hover">
+    <img src="img/Chars/pichusoon.png" width="225" height="225">
+  </a>
+  </div>
+  <div id="bottom">
+  <b>Site made by RWS|MtH_[HAGG].<br>No infringement of copyright is intended in this website.</b><br><br>This is not an official Nintendo website and should therefore not be viewed as such. For official copyright information, see the <a href="http://www.smashbros.com/">the offical website for <b>Super Smash Bros. for Wii U and Nintendo 3DS</b></a>.<br>The NOICE album and related tracks are not meant as an insult to any individual or group of individuals. All tracks referenced in the album are owned by their respective owners.
+  </div>
+</body>
 </html>
