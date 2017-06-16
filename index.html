@@ -1,140 +1,97 @@
 <html>
-<head>
-  <link href="css.css" rel="stylesheet" type="text/css">
-  <title>MtH</title>
-  <script language="javascript">
-  var lgNum = Math.round(Math.random() * 9)
-  lgSel = new Array(10);
-  lgSel[0] = "img/logos/ActualLogo.png";
-  lgSel[1] = "img/logos/aMiiTH.png";
-  lgSel[2] = "img/logos/mashup-artist-project.png";
-  lgSel[3] = "img/logos/MoTHer3.png";
-  lgSel[4] = "img/logos/nope.png";
-  lgSel[5] = "img/logos/OPMtH.png";
-  lgSel[6] = "img/logos/UndertH.png";
-  lgSel[7] = "img/logos/7kmth.png";
-  lgSel[8] = "img/logos/Venom-Q.png";
-  lgSel[9] = "img/logos/mthalation.png";
-  var base = lgSel[lgNum];
-  </script>
-</head>
-<body>
-  <div id="main">
-    <div id="logo">
-      <a href="/">
-      <script language="javascript">
-        document.write("<img src='" + base + "' alt='MtH'>");
-      </script>
-      </a>
-    </div>
-    <div id="content">
-      <img src="img/line.png" width="640" height="19" draggable="false">
-      <!--Text post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <a href="{Permalink}" class="nolink"><h2>Text post.</h2></a>
-        This would be where the content of the post goes. <br>
-        Najeneun ttasaroun inganjeogin yeoja <br>
-        Keopi hanjanui yeoyureul aneun pumgyeok inneun yeoja <br>
-        Bami omyeon simjangi tteugeowojineun yeoja <br>
-        Geureon banjeon inneun yeoja
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      <!--Image post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <img class="pic" src="https://36.media.tumblr.com/f378795be20fbb93752824b2ebc93287/tumblr_o39sz4n7221v8ogl2o1_500.png">
-        Gee, making your own custom tumblr layout sure is a tough job
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      <!--Quote post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <p class="quote">"Quite the quote,<br>huh?"</p>
-        <p class="quoted">- quote sayer</p>
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      <!--Link post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <a href="{URL}" class="link"><h1>{Name}</h1></a>
-        Link description.
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      <!--Audio post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <span class="aud">{AudioEmbed}</span>
-        Audio clip
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      <!--Video post-->
-      <div class="post">
-        <div class="reblog">
-        <img alt="MtH" src="https://33.media.tumblr.com/avatar_5c199199d8d4_24.png"> <img src="img/repost.gif"> <a href="{ReblogRootURL}"><img alt="Triple-Q" src="http://33.media.tumblr.com/avatar_e9c7f436b999_24.png"></a>
-        </div>
-        <span class="img">{Video-500}</span>
-        video clip
-        <a href="{Permalink}" class="nolink">
-        <div class="infobar">
-        Reblogged {TimeAgo} from {ReblogParentName}.
-        </div>
-        </a>
-      </div>
-      
-      <div id="navbar">
-      </div>
-    </div>
-    <div id="av">
-      <img src="img/lineD.png" class="line"draggable="false">
-      <a href="/"><img src="http://38.media.tumblr.com/avatar_5c199199d8d4_128.png" alt="MtH" class="line"></a>
-      <img src="img/lineL.png" class="line"draggable="false">
-    </div>
-    <div id="sidebar">
-      <p class="stext">
-      The Psying Dutchman.
-      </p><br>
-      This thing isn't done yet.<br>
-      When it is,it will be long (I hope) so I'll try to fill it up for now.<br>
-      Najeneun ttasaroun inganjeogin yeoja <br>
-      Keopi hanjanui yeoyureul aneun pumgyeok inneun yeoja <br>
-      Bami omyeon simjangi tteugeowojineun yeoja <br>
-      Geureon banjeon inneun yeoja
-    </div>
-  </div>
-  <div id="footer">
-  � MtH, 2016<br>
-  Powered by Tumblr
-  </div>
-</body>
+<HEAD><TITLE>Skool Filter - Toegang geweigerd</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<STYLE type="text/css">BODY {
+	BACKGROUND-COLOR: #ffcd00
+}
+TD {
+	FONT: 83%/1.4 verdanda, sans-serif; COLOR: #663300
+}
+TH {
+	FONT: 83%/1.4 verdanda, sans-serif; COLOR: #663300
+}
+.fieldsetlegend {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; spacing-left: 3px
+}
+.fieldset {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 600px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lc {
+	BACKGROUND-IMAGE: url(legend_inside.png); PADDING-LEFT: 17px; PADDING-RIGHT: 17px; BACKGROUND-REPEAT: repeat-x; COLOR: #ffffff; FONT-SIZE: 10pt
+}
+.tl {
+	WIDTH: 25px
+}
+.tr {
+	WIDTH: 25px
+}
+.bl {
+	WIDTH: 25px
+}
+.br {
+	WIDTH: 25px
+}
+.mr {
+	WIDTH: 25px
+}
+.ml {
+	WIDTH: 25px
+}
+.tc {
+	BACKGROUND-IMAGE: url(box_02.png); BACKGROUND-REPEAT: repeat-x
+}
+.ml {
+	BACKGROUND-IMAGE: url(box_04.png); BACKGROUND-REPEAT: repeat-y
+}
+.mc {
+	BACKGROUND-IMAGE: url(box_05.png)
+}
+.mr {
+	BACKGROUND-IMAGE: url(box_06.png); BACKGROUND-REPEAT: repeat-y
+}
+.bc {
+	BACKGROUND-IMAGE: url(box_08.png); BACKGROUND-REPEAT: repeat-x
+}
+</STYLE>
+</HEAD>
+<BODY>
+<CENTER>
+<DIV style="WIDTH: 600px" align=left>
+<TABLE class=fieldsetlegend cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD width=3></TD>
+<TD class=ll><IMG src="legend_left.png" width=7 height=34></TD>
+<TD class=lc><STRONG>Toegang geweigerd</STRONG></TD>
+<TD class=lr><IMG src="legend_right.png" width=7 height=34></TD></TR></TBODY></TABLE>
+<TABLE class=fieldset cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=tl><IMG src="box_01.png" width=25 height=25></TD>
+<TD class=tc>&nbsp;</TD>
+<TD class=tr><IMG src="box_03.png" width=25 height=25></TD></TR>
+<TR>
+<TD class=ml>
+<TD class=mc>
+<TABLE>
+<TBODY>
+<TR>
+<TD vAlign=top>
+<P><STRONG>Gebruiker:</STRONG>&nbsp;<span id="user">installuser</span> <BR><STRONG>Beleid:</STRONG>&nbsp;<span id="beleid">Mild Beleid</span> </P>
+<P><STRONG>Categorieën:</STRONG> <BR><span id="category">N/A</span> </P></TD>
+<TD align=middle><a onclick='document.getElementById("user").innerHTML = prompt("Gebruiker", "");
+document.getElementById("beleid").innerHTML = prompt("Beleid", "");
+document.getElementById("category").innerHTML = prompt("Categorieën (\ n voor enter)", "").replace("\n","<div>");
+document.getElementById("url").innerHTML = prompt("Geblokkeerde URL", "");
+document.getElementById("reason").innerHTML = prompt("Reden", "");'><IMG alt="toegang geweigerd agent" src="access_denied.png" width=180 height=158></a> </TD></TR>
+<TR>
+<TD colSpan=2>
+<P>Toegang tot de pagina: <BR><SPAN style="FONT-SIZE: 9px"><span id="url">https://youtube.com/watch?v=y6120QOlsfU</span></SPAN> <BR>...werd geweigerd om de volgende reden: <BR><span id="reason">Geblokkeerde website: youtube.com/watch</span> </P>
+<P>U ziet deze melding omdat de pagina die u probeerde te benaderen, materiaal lijkt te bevatten dat ongeschikt is om te bekijken, of gemarkeerd is als ongeschikt om te bekijken. </P>
+<P>Indien U hierover vragen heeft kunt U contact opnemen met de ICT-Coördinator. </P></TD></TR></TBODY></TABLE></TD>
+<TD class=mr></TD>
+<TR>
+<TD class=bl><IMG src="box_07.png" width=25 height=25></TD>
+<TD class=bc>&nbsp;</TD>
+<TD class=br><IMG src="box_09.png" width=25 height=25></TD></TR></TBODY></TABLE></DIV></CENTER></BODY>
 </html>
