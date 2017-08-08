@@ -1,11 +1,12 @@
 body {
-  background-color:#222;
   color:white;
   font-family:"Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Osaka,sans-serif;
   font-size:52px;
   margin: 0px;
-  position: absolute;
   text-align: center;
-  top: 50%;
+  height:100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
