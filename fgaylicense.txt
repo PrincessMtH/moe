@@ -1,0 +1,12 @@
+/* ////////////////////////////////////////////////////////////////////////// *#
+#*   Copyright (c) [yyyy] [name of copyright owner]               _   _       *#
+#*                                                             ,8"'"8"'"8,    *#
+#*   This code is licensed under the Fucking Gay License.     .8' .8'8. '8.   *#
+#*   Permission is hereby granted to any person obtaining a   '8. '8.8' .8'   *#
+#*   copy of this Software to use, copy and modify the         '8o.o8o.o8'    *#
+#*   Software, provided they accept the following terms:         '#' '#'      *#
+#*   - You are fucking gay                                      ==#= =#==     *#
+#*                                                                #   #       *#
+#*                   A copy of this license can be obtained at                *#
+#*                              http://mth.moe/fgaylicense.txt                *#
+#* ////////////////////////////////////////////////////////////////////////// */
