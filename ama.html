@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Question from ???</title>
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<style>
+		:root {
+			--page-bg: #fed4e6;
+			--borger-color: #872528;
+			--box-top-bg: #fc90bf;
+			--box-bg: #fff2eb;
+			--text-color: #d53c66;
+		}
+		body {
+			font-size: 32px;
+			line-height: 1.4em;
+			background-color: var(--page-bg);
+			color: var(--text-color);
+			font-family: 'IM Fell Great Primer', sans-serif;
+			font-weight: 400;
+		}
+		div {
+			display: block;
+			margin: auto;
+			max-width: 700px;
+			max-height: 700px;
+			border: 2px solid var(--borger-color);
+		}
+		h3 {
+			font-size: 16px;
+			margin: 0px;
+			width: 100%;
+			padding-left: 5px;
+			box-sizing: border-box;
+			background-color: var(--box-top-bg);
+			color: var(--borger-color);
+			border-bottom: 2px solid var(--borger-color);
+			font-family: 'Lato', sans-serif;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			background-color: var(--box-bg);
+		}
+		li {
+			padding: 5px;
+		}
+		i {
+			text-decoration: underline;
+		}
+		#asker {
+			color: var(--borger-color);
+			padding-right: 10px;
+			font-weight: bold;
+		}
+		.qli {
+			font-style: italic;
+		}
+		.ali {
+			border-top: 2px solid var(--borger-color);
+		}
+	</style>
+<head>
+<body>
+	<div class="box">
+		<h3>Ask questions at <i>http://ask.mth.moe/</i></h3>
+		<ul>
+			<li class="qli"> 
+				<span id="asker">NAME:</span>
+				“<span id="question">So, what even IS the mario?</span>”
+			</li>
+			<li class="ali">
+				<span id="answer" contenteditable="true" spellcheck="false">Type answer here...</span>
+			</li>
+		</ul>
+	</div>
+	<script>
+		const urlParams = new URLSearchParams(window.location.search);
+		document.getElementById("asker").innerHTML = urlParams.get('name')+':'; 
+		document.getElementById("question").innerHTML = urlParams.get('question'); 
+	</script>
+
+</body>
+</html>
